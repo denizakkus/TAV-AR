@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="T03978_10" size="59.000000 31.919922" />
+    <ImageTarget name="Starbucks-free-to-use-e1447954491107" size="50.000000 49.416668" />
+    <ImageTarget name="screen-1" size="50.000000 34.995625" />
+    <ImageTarget name="pot" size="50.000000 35.442856" />
+    <ImageTarget name="Plain-mcdonalds-logo" size="50.000000 48.906250" />
+    <ImageTarget name="GrassTexture_zpsf981f07d" size="50.000000 37.500000" />
+    <ImageTarget name="AR_Marker_PNG_24" size="50.000000 50.000000" />
+    <ImageTarget name="vuforia_stones_vergium" size="50.000000 35.000000" />
+  </Tracking>
+</QCARConfig>

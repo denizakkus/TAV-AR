@@ -4,13 +4,15 @@ using UnityEngine;
 using System.IO;
 
 
-public class PlayerVariables : MonoBehaviour {
+public static class PlayerVariables{
 
-	private int playerID { get; set;}//The player's ID Variable
-	private int score {get;set;}//The player's score
-	private string mail { get; set;}//The player's mail
-	private string username{get;set;}//The player's username
+	private static int playerID { get; set;}//The player's ID Variable
+	public static int score {get;set;}//The player's score
+	private static string mail { get; set;}//The player's mail
+	private static string username{get;set;}//The player's username
 	//private Collection collection{get;set;}//The player's collection
+
+
 
 
 

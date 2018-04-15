@@ -1,0 +1,21 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\goToScore.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Riddle Scripts\RiddleVariables.cs" Line="8" Column="1" />
+      <File FileName="Assets\Scripts\Player Scripts\PlayerVariables.cs" Line="7" Column="36" />
+      <File FileName="Assets\Scripts\collectOnTap.cs" Line="28" Column="21" />
+      <File FileName="Assets\Scripts\SwitchBetweenItems.cs" Line="28" Column="54" />
+      <File FileName="Assets\DropHint.cs" Line="32" Column="4" />
+      <File FileName="Assets\Scripts\CheckCollection.cs" Line="18" Column="41" />
+      <File FileName="Assets\Scripts\API\takeAPI.cs" Line="43" Column="28" />
+      <File FileName="Assets\Scripts\SettingsArea\ButtonSave.cs" Line="8" Column="1" />
+      <File FileName="Assets\FillOutScore.cs" Line="13" Column="1" />
+      <File FileName="Assets\Scripts\goToScore.cs" Line="5" Column="18" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

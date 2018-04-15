@@ -8,12 +8,28 @@ public class RiddleGeneration : MonoBehaviour {
 	private List<string> generatedRiddles{get;set;}//The list of already-generated riddles
 	private List<string> nonGeneratedRiddles{get;set;}//The list of riddles that HAVENT been generated yet
 
-	void Awake()
+	public string currentImageName;
+
+	void Start()
 	{
 		initializeNonGeneratedRiddles (); //Initialize the nonGeneratedRiddles
 		generatedRiddles = new List<string>();//Initialize the generatedRiddles
 		generateRandomRiddle();//Generate a random riddle
 	}
+
+	void Update()
+	{
+		foreach(GameObject g in Object.FindObjectsOfType<GameObject>())
+		{
+			if (g.CompareTag ("IT") && g.name.Substring(3)!=currentImageName) {
+			
+				//g.SetActive (false);
+			}
+		}
+
+	}
+
+
 
 
 	void initializeNonGeneratedRiddles()
@@ -34,6 +50,7 @@ public class RiddleGeneration : MonoBehaviour {
 	}
 
 
+
 	void generateRandomRiddle()//Generates a random riddle from the list of nonGenerated Riddles
 	{
 		int randomIndex = Random.Range (0, nonGeneratedRiddles.Count);	//The random index of the newly generated riddle
@@ -42,8 +59,8 @@ public class RiddleGeneration : MonoBehaviour {
 
 
 		Debug.Log (Path.GetFileNameWithoutExtension(nonGeneratedRiddles[randomIndex]));
-		GameObject imageTarget = (GameObject)Instantiate(Resources.Load("Prefabs/Riddle Prefabs/"+Path.GetFileNameWithoutExtension(nonGeneratedRiddles[randomIndex])));
-
+		currentImageName = Path.GetFileNameWithoutExtension (nonGeneratedRiddles [randomIndex]);//Set your name to the current image
+		currentImageName=currentImageName.Substring(4);
 
 		nonGeneratedRiddles.RemoveAt (randomIndex);//Remove the item from the list
 

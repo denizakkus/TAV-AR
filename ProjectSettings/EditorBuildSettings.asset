@@ -4,4 +4,40 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/FirstTouch/UI_Login.unity
+    guid: 67ea104526fafeb45b3bcd8d1b5d824b
+  - enabled: 1
+    path: Assets/Scenes/DefaultScren/UI_MainScreen.unity
+    guid: ca52463f2baa6b545953e7400a1df2d7
+  - enabled: 1
+    path: Assets/Scenes/DefaultScren/UI_HowtoPlay.unity
+    guid: e541648fe0e6fea4b9dfd0f7aafaff00
+  - enabled: 1
+    path: Assets/Scenes/DefaultScren/UI_Collection.unity
+    guid: 2cbd19fcb9594b34980b86e1ba819e48
+  - enabled: 1
+    path: Assets/Scenes/MainScene/MainScene.unity
+    guid: 5f0caeeda954de041a60963925a06255
+  - enabled: 1
+    path: Assets/Scenes/DefaultScren/UI_Play.unity
+    guid: 059dfa16e06da8741905fc7b5f2603f9
+  - enabled: 1
+    path: Assets/Scenes/SettingsScreen/UI_Settings_Application.unity
+    guid: 3ad89b80021243a44b3e85318d6b1313
+  - enabled: 1
+    path: Assets/Scenes/SettingsScreen/UI_Settings_Profile.unity
+    guid: 097a439dceac89744b9619020f0aa965
+  - enabled: 1
+    path: Assets/Scenes/SettingsScreen/UI_Settings_Voice.unity
+    guid: 23663b1da1dd7d54cb6b125af27141fc
+  - enabled: 1
+    path: Assets/Scenes/CollecctionScene.unity
+    guid: 0cce4b184353dbe428d578df3ca02b29
+  - enabled: 1
+    path: Assets/Scenes/DefaultScren/Scoreboard.unity
+    guid: ea04128b70aec834090fedf8bf849f63
+  - enabled: 1
+    path: Assets/Scenes/FirstTouch/UI_SignUp.unity
+    guid: 90761fe64cab1204382d7c3f1d73b9a9
